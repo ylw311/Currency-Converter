@@ -36,17 +36,18 @@ body{
 
 
 h1{
-  font-family: Trebuchet MS;2
+  font-family: Trebuchet MS;
   color: #36454f;
-  margin-left: 80px;
+  margin-left: 70px;
   margin-bottom: 1em;
 }
+
 
 select{
   cursor: pointer;
 
   
-  background: #A8A4CE;
+  background: #7591c7;
 
   color: white;
   margin: 0.3em 0;
@@ -66,7 +67,7 @@ select{
 
 
 input{
-  background: #B2C8DF;
+  background: #dfecfb;
   width: 90%;
   height: 35px;
   font-size: 1em;
@@ -85,12 +86,12 @@ input{
 .button{
   cursor: pointer;
 
-  width: 90%;
-  height: 35px;
+  width: 95%;
+  height: 40px;
   background: #495C83;
   border-radius: 10px;
   border: none;
-  margin: 0.5em 0;
+  margin: 2em 0;
   font-size: 1em;
   font-weight: bold;
   
