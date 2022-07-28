@@ -16,6 +16,7 @@ function display(data){
     select[1].innerHTML += `<option value="${entries[i][0]}"> ${entries[i][0]} </option>`;
   }
 };
+/*
 
 // two ways to convert currency
 button.addEventListener("click", () => {
@@ -27,6 +28,13 @@ document.addEventListener("keyup", function(event) {
         check();
     }
 });
+
+*/
+
+//auto convert every second
+var intervalId = window.setInterval(function(){
+  check()
+}, 100);
 
 function check(){
   let currency1 = select[0].value;
