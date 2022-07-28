@@ -2,3 +2,22 @@ html, body {
   height: 100%;
   width: 100%;
 }
+
+/* universal properties */
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body{
+  background: linear-gradient(300deg, #7CB9E8, #7FFFD4);
+  height: 100vh;
+  
+  /*   centers the currency converter box */
+  display: flex;
+/*   up down */
+  align-items:center;
+/*   left right */
+  justify-content: center;  
+}
